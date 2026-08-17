@@ -380,7 +380,7 @@ The explanation is interpreted as a **local explanation of model behaviour**. SH
 ## Repository Structure
 
 ```text
-atc-human-factor-sequence-models/
+7005SCN/
 │
 ├── README.md
 ├── 7005SCN_notebook.ipynb
@@ -697,7 +697,7 @@ The notebook in this repository represents the final implementation used to prod
 MSc Artificial Intelligence and Human Factors  
 Coventry University
 
-GitHub: `https://github.com/YOUR_GITHUB_USERNAME`
+GitHub: `https://github.com/vijayakumk`
 
 ---
 
