@@ -1,0 +1,16 @@
+Setting,Value
+Random seed,2026
+Minimum reports per label,200
+Number of labels,9
+Maximum vocabulary size,12000
+Actual vocabulary size,12000
+Sequence length,700
+Embedding dimension,64
+Training reports,5929
+Validation reports,1254
+Test reports,1254
+Threshold selection method,Per-label F1 optimisation on validation data
+Baseline per-label thresholds,Situational Awareness: 0.28 | Communication Breakdown: 0.40 | Confusion: 0.38 | Distraction: 0.40 | Workload: 0.50 | Time Pressure: 0.48 | Training / Qualification: 0.46 | Human-Machine Interface: 0.56 | Troubleshooting: 0.38
+LSTM per-label thresholds,Situational Awareness: 0.10 | Communication Breakdown: 0.12 | Confusion: 0.10 | Distraction: 0.28 | Workload: 0.36 | Time Pressure: 0.38 | Training / Qualification: 0.46 | Human-Machine Interface: 0.54 | Troubleshooting: 0.20
+BiGRU per-label thresholds,Situational Awareness: 0.28 | Communication Breakdown: 0.40 | Confusion: 0.30 | Distraction: 0.38 | Workload: 0.42 | Time Pressure: 0.38 | Training / Qualification: 0.76 | Human-Machine Interface: 0.42 | Troubleshooting: 0.50
+Selected sequence model,BiGRU
